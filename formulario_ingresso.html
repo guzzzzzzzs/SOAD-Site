@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/Images/logo/Logo-removebg-preview.png"/>
+    <title>Fest N' Roses</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./assets/Images/logo/Logo-removebg-preview.png" alt="">
+        </div>
+        <div class="paginas">
+            <a href="index.html">Home</a>
+            <a href="data.html">Datas</a>
+            <a href="Ingressos.html">Ingresso</a>
+            <a href="loja.html">Loja</a>
+            <a href="PerguntasFreq.html">Faq</a>
+        </div>
+    </nav>
+<main>
+<div class="form-wrapper">
+    <div class="form-card">
+        <form>
+            <h2>Formulário de Ingresso</h2>
+
+            <label>Nome</label>
+            <input type="text" required>
+
+            <label>Sobrenome</label>
+            <input type="text" required>
+
+            <label>Email</label>
+            <input type="email" required>
+
+            <label>Telefone</label>
+            <input type="tel" required>
+
+            <label>CEP</label>
+            <input type="text" required>
+
+            <label>Complemento</label>
+            <input type="text" required>
+
+            <label>CPF</label>
+            <input type="text" required>
+
+            <label>Gênero</label>
+            <div class="radio-group">
+                <label><input type="radio" name="genero"> Masculino</label>
+                <label><input type="radio" name="genero"> Feminino</label>
+                <label><input type="radio" name="genero"> Outro</label>
+            </div>
+
+            <label>Tipo de Ingresso</label>
+            <div class="radio-group">
+                <label><input type="radio" name="tipo"> Normal</label>
+                <label><input type="radio" name="tipo"> Premium</label>
+                <label><input type="radio" name="tipo"> Platinum</label>
+            </div>
+
+            <label>Ingressos</label>
+            <div class="check-group">
+                <label><input type="checkbox" name="dia"> Dia 26</label>
+                <label><input type="checkbox" name="dia"> Dia 27</label>
+                <label><input type="checkbox" name="dia"> Dia 28</label>
+            </div>
+
+            <label>Pagamento</label>
+            <div class="radio-group">
+                <label><input type="radio" name="pagamento"> Parcelado em 12x</label>
+                <label><input type="radio" name="pagamento"> À vista</label>
+            </div>
+
+            <label>PCD</label>
+            <div class="radio-group">
+                <label><input type="radio" name="pcd"> Sim</label>
+                <label><input type="radio" name="pcd"> Não</label>
+            </div>
+            <div class="file-input">
+                <label for="pcd" class="file-label">Anexe aqui sua Carteira PCD</label>
+                <input type="file" id="pcd" hidden>
+            </div>
+            <button class="btn">Enviar</button>
+        </form>
+    </div>
+</div>
+</main>
+</body>
+</html>

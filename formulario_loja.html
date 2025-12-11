@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/Images/logo/Logo-removebg-preview.png"/>
+    <title>Fest N' Roses</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./assets/Images/logo/Logo-removebg-preview.png" alt="">
+        </div>
+        <div class="paginas">
+            <a href="index.html">Home</a>
+            <a href="data.html">Datas</a>
+            <a href="Ingressos.html">Ingresso</a>
+            <a href="loja.html">Loja</a>
+            <a href="PerguntasFreq.html">Faq</a>
+        </div>
+    </nav>
+<main>
+<div class="form-wrapper">
+    <div class="form-card">
+        <form>
+            <h2>Formulário de Compra</h2>
+
+            <label>Nome</label>
+            <input type="text" required>
+
+            <label>Sobrenome</label>
+            <input type="text" required>
+
+            <label>Email</label>
+            <input type="email" required>
+
+            <label>Telefone</label>
+            <input type="tel" required>
+
+            <label>CEP</label>
+            <input type="text" required>
+
+            <label>Complemento</label>
+            <input type="text" required>
+
+            <label>CPF</label>
+            <input type="text" required>
+
+            <label>Tamanho da Peça</label>
+            <div class="radio-group">
+                <label><input type="radio" name="tamanho"> PP</label>
+                <label><input type="radio" name="tamanho"> P</label>
+                <label><input type="radio" name="tamanho"> M</label>
+                <label><input type="radio" name="tamanho"> G</label>
+                <label><input type="radio" name="tamanho"> GG</label>
+            </div>
+
+            <label>Modelo</label>
+            <div class="check-group">
+                <label><input type="checkbox"> Moletom FW</label>
+                <label><input type="checkbox"> Blusa SW</label>
+            </div>
+            <div class="check-group">
+                <label><input type="checkbox"> Blusa WR'</label>
+                <label><input type="checkbox"> Ecobag Fest</label>
+            </div>
+            <div class="check-group">
+                <label><input type="checkbox"> Moletom BR</label>
+            </div>
+
+            <label>Forma de Pagamento</label>
+            <div class="radio-group">
+                <label><input type="radio" name="pagamento"> Cartão de Crédito</label>
+                <label><input type="radio" name="pagamento"> Pix</label>
+                <label><input type="radio" name="pagamento"> Boleto</label>
+            </div>
+
+            <label>Deseja embalagem para presente?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="presente"> Sim</label>
+                <label><input type="radio" name="presente"> Não</label>
+            </div>
+
+            <button class="btn">Finalizar Compra</button>
+        </form>
+    </div>
+</div>
+</main>
+</body>
+</html>
